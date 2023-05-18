@@ -182,7 +182,10 @@ header {
   .article {
     width: 100%;
   }
-
+.u-text-2 {
+    width: 100%;
+    text-align: justify;
+  }
   .card {
     border-color: rgb(173, 247, 124);
 
