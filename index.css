@@ -1,0 +1,214 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  position: initial;
+}
+
+.carousel-inner img {
+  height: 100vh;
+}
+
+.card:after {
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.row {
+
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner img {
+  height: 90vh;
+}
+
+.data-1 {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.our_moto {
+  text-shadow: 2px 2.5px rgb(231, 235, 32);
+}
+
+.moto_side {
+  border: solid rgb(231, 235, 32);
+}
+
+.data1 {
+  background-color: rgb(214, 255, 196);
+  align-items: center;
+
+}
+
+.card {
+  margin: 10px;
+  border-color: rgb(231, 235, 32);
+}
+
+.Robotization::after {
+  background-color: brown;
+  width: 50px;
+  height: 80px;
+}
+
+.hstack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.embed-responsive {}
+
+.text-bg-dark {
+  width: 200px;
+  height: 250px;
+
+}
+
+.row_card {
+  margin: 0;
+  padding: 20px;
+
+
+}
+
+.u-text-2 {
+  width: 220px;
+  text-align: justify;
+}
+
+.h-100 {
+  margin: 0;
+  padding: 10px;
+
+}
+
+.our-specialities {
+  margin-top: 30px;
+  height: 340px;
+}
+
+.article {
+
+  border: 2px solid rgb(231, 235, 32);
+  width: max-content;
+  text-overflow: initial;
+}
+
+.text-center {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.map {
+  height: 100%;
+  margin-top: 30px;
+  border: 2px solid rgb(231, 235, 32);
+  background-color: rgb(234, 234, 234);
+
+}
+
+
+
+.footer_main {
+  display: inline-flex;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.cname a {
+  color: black;
+  position: relative;
+  text-decoration: none;
+
+}
+
+.call img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer a {
+  color: rgb(241, 176, 176);
+  text-decoration: none;
+}
+
+.call a {
+  text-decoration: none;
+}
+
+.powerdby{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .block_one1 {
+    margin: 0;
+    display: inline;
+    height: 100vh;
+  }
+
+  .our_moto {
+    padding: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2.5px rgb(163, 243, 134);
+  }
+
+  .col-xs-2 {
+    height: 30%;
+
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .card {
+    border-color: rgb(173, 247, 124);
+
+  }
+
+  .hstack {
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_main {
+    display: inline;
+    padding: 20px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
